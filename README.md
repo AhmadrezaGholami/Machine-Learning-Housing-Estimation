@@ -51,9 +51,9 @@ To get started with this project, follow the instructions below:
    git clone https://github.com/yourusername/california-housing-price-prediction.git
 
    
-## <span style="color: #4CAF50;">Explore the Application of  California Housing</span>
+## <span style="color: #4CAF50;">Explore the training phase of  California Housing</span>
 
-You can see the application of **California Housing** in this link on GitHub:
+You can see the training phase of **California Housing** in this link on GitHub:
 
 [![KAGGLE](https://img.icons8.com/material-outlined/24/000000/github.png)](YOUR_GITHUB_LINK_HERE) [<span style="color: #2196F3;">View on GitHub</span>](YOUR_GITHUB_LINK_HERE)
 
