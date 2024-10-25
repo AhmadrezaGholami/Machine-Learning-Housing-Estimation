@@ -2,7 +2,7 @@
 
 You can see the training phase of **California Housing** in this link on GitHub:
 
-[!](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
+[](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
 
 
 # 📊 California Housing Price Prediction
@@ -62,6 +62,7 @@ To get started with this project, follow the instructions below:
 
 You can see the training phase of **California Housing** in this link on GitHub:
 
-[![KAGGLE]](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
+[](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
+
 
 
