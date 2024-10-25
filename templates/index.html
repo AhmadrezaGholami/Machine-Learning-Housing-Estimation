@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>California Housing Price Prediction</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+            color: #333;
+        }
+        .container {
+            margin-top: 20px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            margin-top: 20px;
+        }
+        #map {
+            height: 300px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+        .input-description {
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>California Housing Price Prediction</h1>
+        <form id="predictionForm" method="POST">
+            <div class="form-group">
+                <label for="MedInc">Median Income (in thousands):</label>
+                <input type="number" step="any" class="form-control" name="features[]" required>
+                <small class="input-description">E.g., 1.5 (representing $1,500) or higher.</small>
+            </div>
+            <div class="form-group">
+                <label for="HouseAge">House Age (in years):</label>
+                <input type="number" step="any" class="form-control" name="features[]" required>
+                <small class="input-description">E.g., A new house could be 0-5 years old.</small>
+            </div>
+            <div class="form-group">
+                <label for="AveRooms">Average Rooms:</label>
+                <input type="number" step="any" class="form-control" name="features[]" required>
+                <small class="input-description">E.g., 1-5 rooms depending on housing type.</small>
+            </div>
+            <div class="form-group">
+                <label for="AveBedrms">Average Bedrooms:</label>
+                <input type="number" step="any" class="form-control" name="features[]" required>
+                <small class="input-description">E.g., 1-4 bedrooms typically.</small>
+            </div>
+            <div class="form-group">
+                <label for="Population">Population:</label>
+                <input type="number" step="any" class="form-control" name="features[]" required>
+                <small class="input-description">E.g., High values in urban areas.</small>
+            </div>
+            <div class="form-group">
+                <label for="AveOccup">Average Occupancy:</label>
+                <input type="number" step="any" class="form-control" name="features[]" required>
+                <small class="input-description">E.g., Higher values in densely populated regions.</small>
+            </div>
+            <div class="form-group">
+                <label for="Latitude">Latitude:</label>
+                <input type="text" class="form-control" id="Latitude" name="features[]" required readonly>
+                <small class="input-description">E.g., Decimal degrees; California ranges from 32.5 to 42.0.</small>
+            </div>
+            <div class="form-group">
+                <label for="Longitude">Longitude:</label>
+                <input type="text" class="form-control" id="Longitude" name="features[]" required readonly>
+                <small class="input-description">E.g., Decimal degrees; California ranges from -124.5 to -114.0.</small>
+            </div>
+            <div id="map"></div>
+            <div class="form-group">
+                <label for="model_choice">Choose Model:</label>
+                <select class="form-control" name="model_choice" required>
+                    <option value="sgd_model">SGD Model</option>
+                    <option value="ne_model">Normal Equation Model</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Predict</button>
+        </form>
+
+        <div id="result" class="mt-4 text-center"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Initialize the map
+            var map = L.map('map').setView([36.7783, -119.4179], 6); // California coordinates
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: '© OpenStreetMap'
+            }).addTo(map);
+
+            var marker;
+
+            // Add click event to map
+            map.on('click', function(e) {
+                var lat = e.latlng.lat;
+                var lng = e.latlng.lng;
+
+                // Set latitude and longitude input fields
+                $('#Latitude').val(lat);
+                $('#Longitude').val(lng);
+
+                // Remove existing marker if any
+                if (marker) {
+                    map.removeLayer(marker);
+                }
+
+                // Add marker at clicked location
+                marker = L.marker([lat, lng]).addTo(map);
+            });
+
+            $('#predictionForm').on('submit', function(event){
+                event.preventDefault();
+                $.ajax({
+                    url: '/predict',
+                    method: 'POST',
+                    data: $(this).serialize(),
+                    success: function(response){
+                        if(response.error){
+                            $('#result').html('<div class="alert alert-danger">' + response.error + '</div>');
+                        } else {
+                            $('#result').html('<div class="alert alert-success">Predicted Price: $' + response.prediction.toFixed(2) + '</div>');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
