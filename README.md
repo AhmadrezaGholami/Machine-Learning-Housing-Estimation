@@ -1,3 +1,10 @@
+## <span style="color: #4CAF50;">Explore the training phase of  California Housing</span>
+
+You can see the training phase of **California Housing** in this link on GitHub:
+
+[![KAGGLE]](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
+
+
 # 📊 California Housing Price Prediction
 
 Welcome to the **California Housing Price Prediction** project! This project aims to analyze and predict housing prices in California using various regression techniques.
@@ -55,6 +62,6 @@ To get started with this project, follow the instructions below:
 
 You can see the training phase of **California Housing** in this link on GitHub:
 
-[![KAGGLE](https://img.icons8.com/material-outlined/24/000000/github.png)](YOUR_GITHUB_LINK_HERE) [<span style="color: #2196F3;">View on GitHub</span>](YOUR_GITHUB_LINK_HERE)
+[![KAGGLE]](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
 
 
