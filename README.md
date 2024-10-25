@@ -1,6 +1,6 @@
 ## <span style="color: #4CAF50;">Explore the training phase of  California Housing</span>
 
-You can see the training phase of **California Housing** in this link on GitHub:
+You can see the training phase of **California Housing** in this link on KAGGLE:
 
 [](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
 
@@ -60,9 +60,8 @@ To get started with this project, follow the instructions below:
    
 ## <span style="color: #4CAF50;">Explore the training phase of  California Housing</span>
 
-You can see the training phase of **California Housing** in this link on GitHub:
+You can see the training phase of **California Housing** in this link on KAGGLE:
 
 [](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
-
 
 
