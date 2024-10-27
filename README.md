@@ -20,7 +20,7 @@ You can see the training phase of **California Housing** in this link on KAGGLE:
 
 ## 📂 Project Structure
 
-- **`Regretion_Project.ipynb`**: Jupyter notebook on [Kaggle]([https://www.kaggle.com/your-username/your-notebook](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)) containing the code to train the models.
+- **`Regretion_Project.ipynb`**: Jupyter notebook on [Kaggle]([https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation]) containing the code to train the models.
 - **`app.py`**: Flask-based server to serve predictions from the trained models.
 - **`index.html`**: Front-end interface for users to enter feature values and obtain predictions.
 - **Models and Scalers**:
