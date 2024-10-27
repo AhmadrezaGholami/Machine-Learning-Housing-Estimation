@@ -1,40 +1,44 @@
+# 🏡 California Housing Price Prediction
+
+This repository provides a machine learning model for predicting housing prices in California, built from scratch using **Normal Equation** and **Stochastic Gradient Descent (SGD)** methods. The model is trained on the California Housing dataset, and users can interact with the model through a user-friendly front-end interface.
+
+---
 ## <span style="color: #4CAF50;">Explore the training phase of  California Housing</span>
 
 You can see the training phase of **California Housing** in this link on KAGGLE:
 
 [](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
-
-
-# 📊 California Housing Price Prediction
-
-Welcome to the **California Housing Price Prediction** project! This project aims to analyze and predict housing prices in California using various regression techniques.
-
 ---
 
 ## 📑 Table of Contents
 
-1. [Introduction](#introduction)
-2. [Technologies Used](#technologies-used)
-3. [Dataset](#dataset)
-4. [Installation](#installation)
+- [Project Structure](#-project-structure)
+- [Features](#-features)
+- [Features](#-dataset)
+- [Technologies Used](#-technologies-used)
+---
+
+## 📂 Project Structure
+
+- **`Regretion_Project.ipynb`**: Jupyter notebook on [Kaggle]([https://www.kaggle.com/your-username/your-notebook](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)) containing the code to train the models.
+- **`app.py`**: Flask-based server to serve predictions from the trained models.
+- **`index.html`**: Front-end interface for users to enter feature values and obtain predictions.
+- **Models and Scalers**:
+    - `ne.pkl`: Model trained using the **Normal Equation**.
+    - `sgd.pkl`: Model trained using **SGD**.
+    - `scaler.pkl`: Standard scaler for feature scaling.
 
 ---
 
-## 📖 Introduction
+## 🌟 Features
 
-In this project, we will explore the California housing dataset, perform exploratory data analysis (EDA), and implement machine learning models to predict housing prices. We will compare the performance of different regression techniques.
+- **Interactive Map**: Select a location on the map for **Latitude** and **Longitude**.
+- **Model Selection**: Choose between **SGD Model** and **Normal Equation Model** for predictions.
+- **Responsive Design**: User-friendly and designed with Bootstrap.
 
-## 🛠 Technologies Used
+---
 
-- **Python**: The primary programming language used for this project.
-- **Pandas**: For data manipulation and analysis.
-- **NumPy**: For numerical operations.
-- **Scikit-learn**: For machine learning algorithms.
-- **Matplotlib**: For data visualization.
-- **Seaborn**: For statistical data visualization.
-- **Jupyter Notebook**: For an interactive coding environment.
-- etc ...
-
+---
 ## 📊 Dataset
 
 The dataset used in this project is the California housing dataset, which includes features such as:
@@ -48,20 +52,24 @@ The dataset used in this project is the California housing dataset, which includ
 - **Population**: Total number of people residing in the block group.
 - **MedHouseVal**: Median house value (target variable) in the block group (in hundreds of thousands of dollars).
 
+---
 
-## 🚀 Installation
+## 🔧 Technologies Used
 
-To get started with this project, follow the instructions below:
+- **Python**: The primary programming language used for this project.
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For numerical operations.
+- **Scikit-learn**: For machine learning algorithms.
+- **Matplotlib**: For data visualization.
+- **Seaborn**: For statistical data visualization.
+- **Jupyter Notebook**: For an interactive coding environment.
+- etc ...
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/AhmadrezaGholami/california-housing-price-prediction.git
+---
 
-   
 ## <span style="color: #4CAF50;">Explore the training phase of  California Housing</span>
 
 You can see the training phase of **California Housing** in this link on KAGGLE:
 
 [](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
-
-
+---
