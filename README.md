@@ -7,7 +7,7 @@ This repository provides a machine learning model for predicting housing prices 
 
 You can see the training phase of **California Housing** in this link on KAGGLE:
 
-[](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
+[Kaggle]([https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation]) [<span style="color: #2196F3;">View on KAGGLE</span>][Kaggle]([https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation])
 ---
 
 ## 📑 Table of Contents
@@ -71,5 +71,5 @@ The dataset used in this project is the California housing dataset, which includ
 
 You can see the training phase of **California Housing** in this link on KAGGLE:
 
-[](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
+[Kaggle]([https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation]) [<span style="color: #2196F3;">View on KAGGLE</span>][Kaggle]([https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation])
 ---
