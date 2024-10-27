@@ -8,7 +8,7 @@ This repository provides a machine learning model for predicting housing prices 
 
 You can see the application of **California Housing** in this link on GitHub:
 
-[![KAGGLE]](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
+[<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
 
 
 ---
