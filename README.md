@@ -14,7 +14,7 @@ You can see the training phase of **California Housing** in this link on KAGGLE:
 
 - [Project Structure](#-project-structure)
 - [Features](#-features)
-- [Features](#-dataset)
+- [Dataset](#-dataset)
 - [Technologies Used](#-technologies-used)
 ---
 
