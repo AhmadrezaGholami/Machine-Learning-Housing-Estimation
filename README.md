@@ -4,9 +4,9 @@ This repository provides a machine learning model for predicting housing prices 
 
 ---
 
-## <span style="color: #4CAF50;">Explore the Application of  California Housing</span>
+## <span style="color: #4CAF50;">Explore the training phase of  California Housing</span>
 
-You can see the application of **California Housing** in this link on GitHub:
+You can see the training phase of **California Housing** in this link on Kaggle:
 
 [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
 
@@ -70,9 +70,9 @@ The dataset used in this project is the California housing dataset, which includ
 
 ---
 
-## <span style="color: #4CAF50;">Explore the Application of  California Housing</span>
+## <span style="color: #4CAF50;">Explore the training phase of  California Housing</span>
 
-You can see the application of **California Housing** in this link on GitHub:
+You can see the training phase of **California Housing** in this link on Kaggle:
 
 [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
 
