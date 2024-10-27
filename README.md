@@ -3,11 +3,14 @@
 This repository provides a machine learning model for predicting housing prices in California, built from scratch using **Normal Equation** and **Stochastic Gradient Descent (SGD)** methods. The model is trained on the California Housing dataset, and users can interact with the model through a user-friendly front-end interface.
 
 ---
-## <span style="color: #4CAF50;">Explore the training phase of  California Housing</span>
 
-You can see the training phase of **California Housing** in this link on KAGGLE:
+## <span style="color: #4CAF50;">Explore the Application of  California Housing</span>
 
-[Kaggle]([https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation]) [<span style="color: #2196F3;">View on KAGGLE</span>][Kaggle]([https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation])
+You can see the application of **California Housing** in this link on GitHub:
+
+[![KAGGLE]](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation) [<span style="color: #2196F3;">View on KAGGLE</span>](https://www.kaggle.com/code/ahmadrezagholami2001/machine-learning-housing-estimation)
+
+
 ---
 
 ## 📑 Table of Contents
